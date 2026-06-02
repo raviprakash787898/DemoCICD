@@ -34,7 +34,7 @@ try
         app.MapScalarApiReference();    // Maps the /scalar route
     }
 
-    app.UseHttpsRedirection();
+    // app.UseHttpsRedirection();
 
     app.UseAuthorization();
 
